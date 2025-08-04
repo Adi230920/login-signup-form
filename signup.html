@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Signup Page</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <img src="images/signup-image-new.png" alt="Signup Image" class="login-image" />
+    <h2>Sign Up</h2>
+
+    <form id="signupForm">
+      <label for="newUsername">Username:</label>
+      <input type="text" id="newUsername" required />
+
+      <label for="newPassword">Password:</label>
+      <input type="password" id="newPassword" required />
+  
+      <label for="confirmPassword">Confirm Password:</label>
+      <input type="password" id="confirmPassword" required />
+
+      <button type="submit" class="signup-button">Sign Up</button>
+      <p class="signup-text">Already have an Account ? <a href="index.html">Login</a></p>
+    </form>
+  </div>
+
+  <script src="signup.js"></script>
+</body>
+</html>
